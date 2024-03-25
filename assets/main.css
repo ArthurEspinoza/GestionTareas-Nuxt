@@ -1,0 +1,23 @@
+.task {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.task__info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.task__container{
+    width: 90%;
+    margin-inline: auto;
+}
+@media (min-width: 420px){
+    .task{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .tareas__container{
+        width: 85%
+    }
+}
